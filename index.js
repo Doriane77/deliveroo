@@ -5,6 +5,7 @@ const app = express();
 app.use(cors());
 
 app.get("/", (req, res) => {
+  console.log("coucou j'ai du travail");
   return res.json({
     restaurant: {
       path: "Le Pain Quotidien",
